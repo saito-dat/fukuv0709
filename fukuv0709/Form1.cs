@@ -36,5 +36,31 @@ namespace fukuv0709
         {
             label1.Top = label1.Top + 10;
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            label1.Top = label1.Top - 10;
+            label1.Left = label1.Left - 10;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            label1.Top = label1.Top + 10;
+            label1.Left = label1.Left + 10;
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            label1.Top = label1.Top - 10;
+            label1.Left = label1.Left + 10;
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            label1.Top = label1.Top + 10;
+            label1.Left = label1.Left - 10;
+        }
+
+
     }
 }
